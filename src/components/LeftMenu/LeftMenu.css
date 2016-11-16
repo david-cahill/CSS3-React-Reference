@@ -1,0 +1,13 @@
+.LeftMenu {
+  position: absolute;
+  top: 0;
+  background-color: red;
+  height: 100%;
+  width: 180px;
+  transform: translateX(-180px);
+  transition: transform 0.3s ease-in;
+}
+
+.LeftMenu.is-open {
+  transform: translateX(0);
+}
